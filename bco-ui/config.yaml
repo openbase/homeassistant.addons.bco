@@ -1,5 +1,5 @@
 name: "BCO UI"
-description: "BCO UI Webapp"
+description: "Delivers the BCO user interface as a local web application that can be integrated in the hass ui sitebar."
 url: "https://basecubeone.org/docs/user/howto/setup-docker#deploy-the-bco-webapp-docker"
 version: latest
 slug: "bco-ui"
@@ -10,3 +10,7 @@ startup: application
 ports:
   80/tcp: 80
 image: opaal/bco-ui-albiorix
+ingress: true
+ingress_port: 80
+# ingress_entry: /. ## Modify the URL entry point.
+# ingress_stream: false ## When enabled, requests to the add-on are streamed

@@ -1,5 +1,5 @@
 name: "BCO Core"
-description: "BCO platform docker image"
+description: "The heart of BCO, providing all essential services."
 url: "https://www.openbase.org"
 version: dev
 slug: "bco-core"

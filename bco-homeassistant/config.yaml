@@ -1,5 +1,5 @@
 name: "BCO Home Assistant Integration"
-description: "The gateway between BCO and Home Assistant"
+description: "Acts as the gateway between BCO and Home Assistant, managing device, area, entity, and service synchronization between both systems."
 url: "https://www.openbase.org"
 version: dev
 slug: "bco-homeassistant"
