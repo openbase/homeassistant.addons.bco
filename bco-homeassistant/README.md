@@ -1,2 +1,5 @@
-# BCO Demo Add-on
-This add-on runs the BCO demo Docker container with specific options in Home Assistant.
+# BCO Home Assistant Gateway
+
+This addon serves as a gateway between BCO and Home Assistant.
+
+Supports device, area, entity and service synchronization between both systems.

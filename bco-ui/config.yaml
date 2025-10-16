@@ -1,5 +1,5 @@
-name: "BCO UI"
-description: "BCO UI Webapp"
+name: "BCO Userinterface"
+description: "Delivers the BCO user interface as a local web application within the network."
 version: latest
 slug: "bco-ui"
 arch:
