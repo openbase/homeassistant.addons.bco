@@ -12,7 +12,7 @@ ports:
   80/tcp: 80
 image: opaal/bco-ui-albiorix
 webui: http://[HOST]:[PORT:80]
-panel_admin: false 
+panel_admin: false
 ingress: true
 ingress_port: 80
 # ingress_entry: /. ## Modify the URL entry point.
