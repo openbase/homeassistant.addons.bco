@@ -1,4 +1,4 @@
-name: "BCO Userinterface"
+name: "BCO User Interface"
 description: "Delivers the BCO user interface as a local web application within the network."
 url: "https://www.basecubeone.org"
 version: latest
