@@ -1,7 +1,7 @@
 name: "BCO Core"
-description: "BCO platform docker image"
-url: "https://www.openbase.org"
-version: dev
+description: "This is the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
+url: "https://www.basecubeone.org"
+version: latest
 slug: "bco-core"
 arch:
   - aarch64

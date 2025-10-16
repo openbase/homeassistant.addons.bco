@@ -5,8 +5,6 @@ slug: "bco-middleware"
 arch:
   - aarch64
   - amd64
-  - armv7
-  - i386
 startup: services
 ports:
   13780/tcp: 13780

@@ -1,15 +1,15 @@
 name: "BCO Home Assistant Integration"
 description: "The gateway between BCO and Home Assistant"
 url: "https://www.openbase.org"
-version: dev
-slug: "bco-homeassistant"
+version: latest
+slug: "bco-gateway-homeassistant"
 arch:
   - aarch64
   - amd64
 startup: application
 ports:
   13781/tcp: 13781
-image: openbaseorg/bco-device-homeassistent
+image: openbaseorg/bco-gateway-homeassistent
 environment:
   BCO_OPTIONS: "--host local-bco-middleware --port 13780"
 watchdog: http://[HOST]:[PORT:13781]/graphql

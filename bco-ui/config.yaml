@@ -1,6 +1,5 @@
 name: "BCO UI"
 description: "BCO UI Webapp"
-url: "https://basecubeone.org/docs/user/howto/setup-docker#deploy-the-bco-webapp-docker"
 version: latest
 slug: "bco-ui"
 arch:
