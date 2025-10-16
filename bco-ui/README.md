@@ -1,2 +1,3 @@
 # BCO WebApp
-A Flutter application to provide state-of-the-art user interaction with the smarthome system BaseCubeOne.
+
+Delivers the BCO user interface as a local web application within the network.

@@ -1,2 +1,3 @@
 # BCO Middleware
-A Mosquitto MQTT broker configured for BCO.
+
+Offers MQTT as middleware, designed to facilitate communication between all BCO components.
