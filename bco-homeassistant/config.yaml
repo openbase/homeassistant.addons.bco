@@ -1,20 +1,19 @@
 name: "BCO Home Assistant Gateway"
 description: "The gateway between BCO and Home Assistant"
-url: "https://www.openbase.org"
+url: "https://www.basecubeone.org"
 version: latest
 slug: "bco-gateway-homeassistant"
+panel_icon: mdi:cube-outline
 arch:
   - aarch64
   - amd64
 startup: application
-ports:
-  13781/tcp: 13781
 image: openbaseorg/bco-gateway-homeassistent
+homeassistant_api: true
 environment:
   BCO_OPTIONS: "--host local-bco-middleware --port 13780"
-watchdog: http://[HOST]:[PORT:13781]/graphql
-healthcheck:
-  test: ["CMD-SHELL", "nc -z -v -w5 homeassistant.local 13781 || exit 1"]
-  interval: "30s"
-  timeout: "10s"
-  retries: 3
+#healthcheck:
+#  test: ["CMD-SHELL", "nc -z -v -w5 homeassistant.local 13781 || exit 1"]
+#  interval: "30s"
+#  timeout: "10s"
+#  retries: 3

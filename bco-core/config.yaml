@@ -2,6 +2,7 @@ name: "BCO Core"
 description: "This is the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
 url: "https://www.basecubeone.org"
 version: latest
+panel_icon: mdi:cube-outline
 slug: "bco-core"
 arch:
   - aarch64
@@ -10,5 +11,7 @@ startup: application
 ports:
   13781/tcp: 13781
 image: openbaseorg/bco
+watchdog: http://[HOST]:[PORT:13781]/graphql
+timeout: 60
 environment:
   BCO_OPTIONS: "--host local-bco-middleware --port 13780"
