@@ -11,7 +11,7 @@ startup: application
 image: openbaseorg/bco-gateway-homeassistant
 homeassistant_api: true
 environment:
-  BCO_OPTIONS: "--host local-bco-middleware --port 13780"
+  BCO_OPTIONS: "--host addon_bco-middleware --port 13780"
 #healthcheck:
 #  test: ["CMD-SHELL", "nc -z -v -w5 homeassistant.local 13781 || exit 1"]
 #  interval: "30s"
