@@ -14,4 +14,4 @@ image: openbaseorg/bco
 watchdog: http://[HOST]:[PORT:13781]/graphql
 timeout: 60
 environment:
-  BCO_OPTIONS: "--host addon_bco-middleware --port 13780"
+  BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780"
