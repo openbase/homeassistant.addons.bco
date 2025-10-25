@@ -10,8 +10,14 @@ arch:
 startup: application
 image: openbaseorg/bco-gateway-homeassistant
 homeassistant_api: true
+options:
+  OPTION_BCO_MIDDLEWARE_HOST: addon_f71ff8bf_bco-middleware
+  OPTION_BCO_MIDDLEWARE_PORT: 13780
+schema:
+  OPTION_BCO_MIDDLEWARE_HOST: str?
+  OPTION_BCO_MIDDLEWARE_PORT: int?
 environment:
-  BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780"
+  BCO_OPTIONS: "--host ${OPTION_BCO_MIDDLEWARE_HOST} --port ${OPTION_BCO_MIDDLEWARE_PORT}"
 #healthcheck:
 #  test: ["CMD-SHELL", "nc -z -v -w5 homeassistant.local 13781 || exit 1"]
 #  interval: "30s"
