@@ -13,11 +13,16 @@ homeassistant_api: true
 options:
   BCO_MIDDLEWARE_HOST: addon_f71ff8bf_bco-middleware
   BCO_MIDDLEWARE_PORT: 13780
+  BCO_API_KEY: "changeme"
+
 schema:
   BCO_MIDDLEWARE_HOST: str?
-  BCO_MIDDLEWARE_PORT: int?
+  BCO_MIDDLEWARE_PORT: port?
+  BCO_API_KEY: password?
 #healthcheck:
 #  test: ["CMD-SHELL", "nc -z -v -w5 homeassistant.local 13781 || exit 1"]
 #  interval: "30s"
 #  timeout: "10s"
 #  retries: 3
+environment:
+  BCO_HOME: "/data"

@@ -11,7 +11,12 @@ startup: application
 ports:
   13781/tcp: 13781
 image: openbaseorg/bco
+map:
+  - type: addon_config
+    read_only: False
 watchdog: http://[HOST]:[PORT:13781]/graphql
 timeout: 60
 environment:
-  BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780"
+  BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780 --database /config"
+  BCO_USER_HOME: "/data"
+  BCO_HOME: "/data"
