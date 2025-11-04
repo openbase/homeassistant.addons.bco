@@ -13,8 +13,8 @@ homeassistant_api: true
 options:
   BCO_MIDDLEWARE_HOST: addon_f71ff8bf_bco-middleware
   BCO_MIDDLEWARE_PORT: 13780
-  BCO_ADMIN: null
-  BCO_ADMIN_PASSWORD: null
+  BCO_ADMIN: ""
+  BCO_ADMIN_PASSWORD: ""
 
 schema:
   BCO_MIDDLEWARE_HOST: str?
