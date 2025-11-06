@@ -10,10 +10,13 @@ arch:
 startup: application
 # ports:
 #   8381/tcp: 80
+ports:
+  80/tcp: null
 image: opaal/bco-ui-albiorix
 # webui: http://[HOST]:[PORT:8383]
 panel_admin: false
 ingress: true
 ingress_port: 80
+host_network: true
 # ingress_entry: /. ## Modify the URL entry point.
 # ingress_stream: false ## When enabled, requests to the add-on are streamed
