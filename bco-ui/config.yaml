@@ -9,7 +9,7 @@ arch:
   - amd64
 startup: application
 ports:
-  8022/tcp: 80
+  8022/tcp: 8022
 image: opaal/bco-ui-albiorix
 # webui: http://[HOST]:[PORT:80]
 panel_admin: false
