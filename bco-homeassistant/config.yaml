@@ -25,13 +25,7 @@ schema:
   BCO_MIDDLEWARE_PORT: port?
   BCO_ADMIN: str?
   BCO_ADMIN_PASSWORD: password?
-  LOG_LEVEL:
-    - "TRACE"
-    - "DEBUG"
-    - "INFO"
-    - "WARN"
-    - "ERROR"
-    - "OFF"
+  LOG_LEVEL: str?
   DEBUG_MODE: bool?
   HOME_ASSISTANT_HOST: str?
   HOME_ASSISTANT_PORT: port?
