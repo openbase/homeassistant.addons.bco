@@ -1,4 +1,4 @@
-name: "BCO User Interface"
+name: "BCozy"
 description: "Delivers the BCO user interface as a local web application within the network."
 url: "https://www.basecubeone.org"
 version: latest
@@ -16,7 +16,6 @@ image: opaal/bco-ui-albiorix
 # webui: http://[HOST]:[PORT:8383]
 panel_admin: false
 ingress: true
-ingress_port: 80
-host_network: true
+ingress_port: 8022
 # ingress_entry: /. ## Modify the URL entry point.
 # ingress_stream: false ## When enabled, requests to the add-on are streamed
