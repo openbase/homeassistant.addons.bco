@@ -19,16 +19,19 @@ options:
   DEBUG_MODE: false
   HOME_ASSISTANT_HOST: "supervisor"
   HOME_ASSISTANT_PORT: 80
+  HOME_ASSISTANT_WEBSOCKET_ENDPOINT: "/core/websocket"
 
 schema:
   BCO_MIDDLEWARE_HOST: str?
   BCO_MIDDLEWARE_PORT: port?
   BCO_ADMIN: str?
   BCO_ADMIN_PASSWORD: password?
-  LOG_LEVEL: str?
+  LOG_LEVEL: list(TRACE|DEBUG|INFO|WARN|ERROR|OFF)
   DEBUG_MODE: bool?
   HOME_ASSISTANT_HOST: str?
   HOME_ASSISTANT_PORT: port?
+  HOME_ASSISTANT_WEBSOCKET_ENDPOINT: list(/api/websocket|/core/websocket)
+
 
 #healthcheck:
 #  test: ["CMD-SHELL", "nc -z -v -w5 homeassistant.local 13781 || exit 1"]
