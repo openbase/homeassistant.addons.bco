@@ -1,5 +1,5 @@
-name: "BCO Core"
-description: "This is the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
+name: "BCO Core (preview)"
+description: "This is the unstable preview track of the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
 url: "https://www.basecubeone.org"
 version: latest
 panel_icon: mdi:cube-outline
