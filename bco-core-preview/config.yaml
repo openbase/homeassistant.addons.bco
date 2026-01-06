@@ -1,7 +1,7 @@
 name: "BCO Core (preview)"
 description: "This is the unstable preview track of the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
 url: "https://www.basecubeone.org"
-version: pr-152
+version: preview-20251204-195711
 panel_icon: mdi:cube-outline
 slug: "bco-core"
 arch:
@@ -12,13 +12,14 @@ ports:
   13781/tcp: 13781
 image: openbaseorg/bco
 map:
-  - type: addon_config
-    read_only: false
+  - type: share
+    read_only: False
+    path: /bco/data
 watchdog: http://[HOST]:[PORT:13781]/graphql
 timeout: 60
 environment:
   BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780"
-  BCO_USER_HOME: "/data"
-  BCO_HOME: "/data"
+  BCO_USER_HOME: "/bco/data"
+  BCO_HOME: "/bco/data"
   BCO_LOGS: "/tmp/logs"
   MQTT_BROKER: "addon_f71ff8bf_bco-middleware"
