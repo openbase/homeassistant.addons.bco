@@ -14,12 +14,11 @@ image: openbaseorg/bco
 map:
   - type: share
     read_only: False
-    path: /bco/data
 watchdog: http://[HOST]:[PORT:13781]/graphql
 timeout: 60
 environment:
   BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780"
-  BCO_USER_HOME: "/bco/data"
-  BCO_HOME: "/bco/data"
+  BCO_USER_HOME: "/share/bco/data"
+  BCO_HOME: "/share/bco/data"
   BCO_LOGS: "/tmp/logs"
   MQTT_BROKER: "addon_f71ff8bf_bco-middleware"

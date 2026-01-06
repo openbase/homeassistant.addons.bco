@@ -12,7 +12,6 @@ image: openbaseorg/bco-gateway-homeassistant
 map:
   - type: share
     read_only: False
-    path: /bco/data
 homeassistant_api: true
 hassio_api: true
 options:
@@ -46,4 +45,4 @@ schema:
 #  timeout: "10s"
 #  retries: 3
 environment:
-  BCO_HOME: "/bco/data"
+  BCO_HOME: "/share/bco/data"
