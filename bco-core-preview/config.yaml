@@ -1,7 +1,7 @@
 name: "BCO Core (preview)"
 description: "This is the unstable preview track of the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
 url: "https://www.basecubeone.org"
-version: preview-20251204-195711
+version: preview-20260115-200252
 panel_icon: mdi:cube-outline
 slug: "bco-core"
 arch:
