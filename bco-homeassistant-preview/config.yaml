@@ -1,7 +1,7 @@
 name: "BCO Connect Home Assistant (preview)"
 description: "This is the unstable preview track of the gateway between BCO and Home Assistant"
 url: "https://www.basecubeone.org"
-version: preview-20260205-214649
+version: preview-20260205-220727
 slug: "bco-gateway-homeassistant-preview"
 panel_icon: mdi:cube-outline
 arch:
