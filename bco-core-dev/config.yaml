@@ -16,6 +16,7 @@ map:
     read_only: false
 watchdog: http://[HOST]:[PORT:13781]/graphql
 timeout: 60
+stage: experimental
 environment:
   BCO_OPTIONS: "--host addon_f71ff8bf_bco-middleware --port 13780"
   BCO_USER_HOME: "/data"

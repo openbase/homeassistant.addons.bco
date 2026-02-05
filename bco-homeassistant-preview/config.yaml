@@ -14,6 +14,7 @@ map:
     read_only: False
 homeassistant_api: true
 hassio_api: true
+stage: experimental
 options:
   BCO_MIDDLEWARE_HOST: addon_f71ff8bf_bco-middleware
   BCO_MIDDLEWARE_PORT: 13780

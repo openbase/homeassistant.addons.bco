@@ -15,5 +15,6 @@ image: opaal/bco-ui-albiorix
 panel_admin: false
 ingress: true
 ingress_port: 8022
+stage: experimental
 # ingress_entry: /. ## Modify the URL entry point.
 # ingress_stream: false ## When enabled, requests to the add-on are streamed
