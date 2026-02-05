@@ -1,0 +1,42 @@
+description: "Dies ist der instabile Preview Kanal des Gateways zwischen BCO und Home Assistant."
+
+configuration:
+  BCO_MIDDLEWARE_HOST:
+    name: "BCO Middleware Host"
+    description: "Der Hostname oder die IP Adresse des BCO Middleware Dienstes. Dies ist der Dienst, mit dem das Home Assistant Gateway eine Verbindung herstellt, um auf die Funktionen von BCO zuzugreifen."
+
+  BCO_MIDDLEWARE_PORT:
+    name: "BCO Middleware Port"
+    description: "Die Portnummer, auf der der BCO Middleware Dienst lauscht. Der Standardport ist 13780."
+
+  BCO_ADMIN:
+    name: "BCO Admin Benutzername"
+    description: "Der Benutzername eines BCO Administratorkontos. Dieses Konto wird vom Home Assistant Gateway verwendet, um sich beim BCO Middleware Dienst zu authentifizieren."
+
+  BCO_ADMIN_PASSWORD:
+    name: "BCO Admin Passwort"
+    description: "Das Passwort des oben angegebenen BCO Administratorkontos."
+
+  LOG_LEVEL:
+    name: "Protokollstufe"
+    description: "Die Protokollstufe für das Home Assistant Gateway. Dies steuert die Ausführlichkeit der vom Gateway erzeugten Protokolle. Die verfügbaren Stufen sind: TRACE, DEBUG, INFO, WARN, ERROR, OFF."
+
+  DEBUG_MODE:
+    name: "Debug Modus"
+    description: "Wenn aktiviert, erzeugt das Home Assistant Gateway detailliertere Protokolle für Debugging Zwecke. Dies ist nützlich zur Fehlerbehebung bei Problemen mit dem Gateway."
+
+  HOME_ASSISTANT_HOST:
+    name: "Home Assistant Host"
+    description: "Der Hostname oder die IP Adresse der Home Assistant Instanz, mit der das Gateway eine Verbindung herstellt. Bei der Ausführung als Home Assistant Add on ist dies typischerweise 'supervisor'."
+
+  HOME_ASSISTANT_PORT:
+    name: "Home Assistant Port"
+    description: "Die Portnummer, auf der die Home Assistant Instanz lauscht. Der Standardport ist 80."
+
+  HOME_ASSISTANT_WEBSOCKET_ENDPOINT:
+    name: "Home Assistant WebSocket Endpunkt"
+    description: "Der WebSocket Endpunkt für die Echtzeit API von Home Assistant. Standardmäßig ist dies '/core/websocket'."
+
+  HOME_ASSISTANT_REST_ENDPOINT:
+    name: "Home Assistant REST Endpunkt"
+    description: "Der REST API Endpunkt für Home Assistant. Standardmäßig ist dies '/core/api'."
