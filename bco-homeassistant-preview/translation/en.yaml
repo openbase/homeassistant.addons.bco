@@ -25,7 +25,7 @@ configuration:
 
   HOME_ASSISTANT_HOST:
     name: "Home Assistant Host"
-    description: "The hostname or IP address of the Home Assistant instance that the gateway will connect to. This is typically 'supervisor' when running as a Home Assistant add-on."
+    description: "The hostname or IP address of the Home Assistant instance that the gateway will connect to. This is typically 'supervisor' when running as a Home Assistant add on."
 
   HOME_ASSISTANT_PORT:
     name: "Home Assistant Port"
@@ -33,7 +33,7 @@ configuration:
 
   HOME_ASSISTANT_WEBSOCKET_ENDPOINT:
     name: "Home Assistant WebSocket Endpoint"
-    description: "The WebSocket endpoint for Home Assistant's real-time API. The default is '/core/websocket'."
+    description: "The WebSocket endpoint for Home Assistant's real time API. The default is '/core/websocket'."
 
   HOME_ASSISTANT_REST_ENDPOINT:
     name: "Home Assistant REST Endpoint"
