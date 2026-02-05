@@ -1,5 +1,3 @@
-description: "Dies ist der instabile Preview Kanal des Gateways zwischen BCO und Home Assistant."
-
 configuration:
   BCO_MIDDLEWARE_HOST:
     name: "BCO Middleware Host"
