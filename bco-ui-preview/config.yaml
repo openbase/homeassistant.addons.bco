@@ -1,7 +1,7 @@
 name: "BCozy (preview)"
 description: "This is the unstable preview track of the BCO user interface served as a local web application within the network."
 url: "https://www.basecubeone.org"
-version: latest
+version: preview-20260115-222654
 slug: "bco-ui-preview"
 panel_icon: mdi:cube-outline
 arch:
