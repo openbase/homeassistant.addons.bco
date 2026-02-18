@@ -1,7 +1,7 @@
 name: "BCO Connect Home Assistant"
 description: "The gateway between BCO and Home Assistant"
 url: "https://www.basecubeone.org"
-version: review
+version: v0.1.0
 slug: "bco-gateway-homeassistant"
 panel_icon: mdi:cube-outline
 arch:
