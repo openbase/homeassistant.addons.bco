@@ -1,7 +1,7 @@
 name: "BCO Core (dev)"
 description: "This is the unstable dev track of the BaseCubeOne core system providing a behaviour based automation approach and many more innovative smart home features."
 url: "https://www.basecubeone.org"
-version: dev-20260414-234051
+version: dev-20260422-204452
 panel_icon: mdi:cube-outline
 slug: "bco-core-dev"
 arch:
